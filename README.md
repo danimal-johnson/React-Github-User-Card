@@ -25,13 +25,13 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x] Do your magic!
 
 ## Minimum Viable Product
 
-- [ ] Fetch data from the Github API for a Github user
-- [ ] Display the user data on the DOM
-- [ ] Use class components when you need to hold any state or use any lifecycle methods
+- [x] Fetch data from the Github API for a Github user
+- [x] Display the user data on the DOM
+- [x] Use class components when you need to hold any state or use any lifecycle methods
 
 ## Planning your App
 
@@ -43,7 +43,7 @@ When you have those completed, you're ready to start coding!
 
 ## STEP 1 - Fetch the User Data
 
-- When your component mounts, send a GET request to the following URL (replacing the palceholder with your Github name):
+- When your component mounts, send a GET request to the following URL (replacing the placeholder with your Github name):
   - https://api.github.com/users/<your name>
 - After you fetch your data, set it to state
 
@@ -68,6 +68,10 @@ When you have those completed, you're ready to start coding!
 ## STEP 5 - Project Retrospective
 
 Now that you have completed the MVP, I want you to think about the process it took you to get here. Is there anything you wish you had planned better? Anything you would do differently? Now take a minute think about how you would accomplish these same objectives with function components and hooks. You have experience with both formats now, so you can form opinions, but more importantly, you can back up those opinions. That's a really exciting level to be at! If you have time now, go ahead and move onto the stretch problems.
+
+> Now I finally understand why people prefer using hooks to classes in React. Not having to deal with `componentDidMount`, `componentDidUpdate`, or even the minor inconvenience of constructors is nice. It is also more intuitive to have functions as functions rather than as class components.
+> I'm not sure why exactly, but it took me a while to nail down setting updated props to state and only making API calls when necessary. I did include the GitHub Calendar (contribution graph) without realizing it was a stretch goal. I think this assignment can easily be updated to include a form element.
+>As an aside: I've discovered a new VS Code plugin called "REST Client" that allows you to quickly and easily test API calls without leaving the editor.
 
 ## Stretch Problems
 
